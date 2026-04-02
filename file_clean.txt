@@ -1,0 +1,8 @@
+﻿dir : Cannot find path 'D:\s' because it does not exist.
+At line:1 char:1
++ dir /s lib > file_structure.txt 2>&1; Get-Content file_structure.txt  ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (D:\s:String) [Get-ChildItem], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetChildItemCommand
+ 
+

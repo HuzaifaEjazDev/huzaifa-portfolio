@@ -1,0 +1,44 @@
+﻿Analyzing huzaifa_dev...                                        
+
+  error - The argument type 'FaIconData' can't be assigned to the parameter type 'IconData'.  - lib\sections\contact_section.dart:96:17 - argument_type_not_assignable
+  error - The argument type 'FaIconData' can't be assigned to the parameter type 'IconData'.  - lib\sections\contact_section.dart:102:17 - argument_type_not_assignable
+  error - The argument type 'FaIconData' can't be assigned to the parameter type 'IconData'.  - lib\sections\contact_section.dart:108:17 - argument_type_not_assignable
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\sections\contact_section.dart:131:31 - deprecated_member_use
+  error - The argument type 'IconData' can't be assigned to the parameter type 'FaIconData?'.  - lib\sections\contact_section.dart:138:20 - argument_type_not_assignable
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\sections\experience_section.dart:82:43 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\sections\experience_section.dart:108:41 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\sections\hero_section.dart:102:29 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\sections\hero_section.dart:142:48 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\sections\hero_section.dart:205:50 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\sections\hero_section.dart:214:85 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\sections\hero_section.dart:273:43 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\sections\hero_section.dart:274:43 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\sections\hero_section.dart:291:46 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\sections\hero_section.dart:293:54 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\sections\hero_section.dart:357:29 - deprecated_member_use
+warning - Unused import: 'package:huzaifa_dev/widgets/glass_container.dart' - lib\sections\skills_section.dart:2:8 - unused_import
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\sections\skills_section.dart:52:29 - deprecated_member_use
+  error - The function 'StateProvider' isn't defined - lib\sections\work_section.dart:7:31 - undefined_function
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\sections\work_section.dart:143:30 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\sections\work_section.dart:144:30 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\sections\work_section.dart:160:54 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\sections\work_section.dart:229:29 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\sections\work_section.dart:245:40 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\sections\work_section.dart:267:39 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\sections\work_section.dart:279:37 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\widgets\background_orbs.dart:22:43 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\widgets\background_orbs.dart:42:43 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\widgets\background_orbs.dart:62:43 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\widgets\glass_container.dart:33:33 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\widgets\nav_bar.dart:14:40 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\widgets\nav_bar.dart:37:58 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\widgets\nav_bar.dart:40:62 - deprecated_member_use
+
+flutter : 33 issues found. (ran in 7.1s)
+At line:1 char:1
++ flutter analyze > analysis.txt 2>&1
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (33 issues found. (ran in 7.1s):String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+
