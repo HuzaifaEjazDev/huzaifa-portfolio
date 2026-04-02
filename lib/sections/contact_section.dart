@@ -23,23 +23,48 @@ class ContactSection extends StatelessWidget {
                 children: [
                   _educationCard().animate().fadeIn().slideY(begin: 0.1),
                   const SizedBox(height: 24),
-                  _socialsCard().animate().fadeIn(delay: 200.ms).slideY(begin: 0.1),
+                  _socialsCard()
+                      .animate()
+                      .fadeIn(delay: 200.ms)
+                      .slideY(begin: 0.1),
                 ],
               ),
               tablet: Row(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Expanded(flex: 3, child: _educationCard().animate().fadeIn().slideX(begin: -0.1)),
+                  Expanded(
+                    flex: 3,
+                    child: _educationCard().animate().fadeIn().slideX(
+                      begin: -0.1,
+                    ),
+                  ),
                   const SizedBox(width: 24),
-                  Expanded(flex: 2, child: _socialsCard().animate().fadeIn(delay: 200.ms).slideX(begin: 0.1)),
+                  Expanded(
+                    flex: 2,
+                    child: _socialsCard()
+                        .animate()
+                        .fadeIn(delay: 200.ms)
+                        .slideX(begin: 0.1),
+                  ),
                 ],
               ),
               desktop: Row(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Expanded(flex: 3, child: _educationCard().animate().fadeIn().slideX(begin: -0.1)),
+                  Expanded(
+                    flex: 3,
+                    child: _educationCard().animate().fadeIn().slideX(
+                      begin: -0.1,
+                    ),
+                  ),
                   const SizedBox(width: 24),
-                  Expanded(flex: 2, child: _socialsCard().animate().fadeIn(delay: 200.ms).slideX(begin: 0.1)),
+                  Expanded(
+                    flex: 2,
+                    child: _socialsCard()
+                        .animate()
+                        .fadeIn(delay: 200.ms)
+                        .slideX(begin: 0.1),
+                  ),
                 ],
               ),
             ),
@@ -60,35 +85,48 @@ class ContactSection extends StatelessWidget {
           children: [
             Text(
               'Education',
-              style: GoogleFonts.outfit(fontSize: 24, fontWeight: FontWeight.bold),
+              style: GoogleFonts.outfit(
+                fontSize: 24,
+                fontWeight: FontWeight.bold,
+              ),
             ),
             const SizedBox(height: 32),
             _eduItem(
-              year: '2023 – 2027',
-              degree: 'BS in Computer Science',
-              school: 'Government College University Faisalabad',
+              year: '2021 – 2025',
+              degree: 'BS in Information Technology',
+              school: 'Punjab University, Lahore',
             ),
-            const SizedBox(height: 24),
-            _eduItem(
-              year: 'Completed',
-              degree: 'Intermediate in Computer Science (ICS)',
-              school: 'Government College Samanabad Faisalabad',
-            ),
+            // const SizedBox(height: 24),
+            // _eduItem(
+            //   year: 'Completed',
+            //   degree: 'Intermediate in Computer Science (ICS)',
+            //   school: 'Government College Samanabad Faisalabad',
+            // ),
           ],
         ),
       ),
     );
   }
 
-  Widget _eduItem({required String year, required String degree, required String school}) {
+  Widget _eduItem({
+    required String year,
+    required String degree,
+    required String school,
+  }) {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Text(year, style: const TextStyle(fontSize: 12, color: Colors.white38)),
         const SizedBox(height: 4),
-        Text(degree, style: const TextStyle(fontSize: 16, fontWeight: FontWeight.w600)),
+        Text(
+          degree,
+          style: const TextStyle(fontSize: 16, fontWeight: FontWeight.w600),
+        ),
         const SizedBox(height: 2),
-        Text(school, style: const TextStyle(fontSize: 14, color: Colors.white60)),
+        Text(
+          school,
+          style: const TextStyle(fontSize: 14, color: Colors.white60),
+        ),
       ],
     );
   }
@@ -117,13 +155,17 @@ class ContactSection extends StatelessWidget {
         _socialButton(
           icon: Icons.email,
           label: 'Email',
-          url: 'mailto:huzaifaejk@gmail.com',
+          url: 'mailto:huzaifaejazdev@gmail.com',
         ),
       ],
     );
   }
 
-  Widget _socialButton({required dynamic icon, required String label, required String url}) {
+  Widget _socialButton({
+    required dynamic icon,
+    required String label,
+    required String url,
+  }) {
     return HoverContainer(
       translateY: true,
       onTap: () async {
@@ -145,7 +187,10 @@ class ContactSection extends StatelessWidget {
             else
               Icon(icon as IconData, size: 16, color: Colors.white70),
             const SizedBox(width: 12),
-            Text(label, style: const TextStyle(fontSize: 14, color: Colors.white)),
+            Text(
+              label,
+              style: const TextStyle(fontSize: 14, color: Colors.white),
+            ),
           ],
         ),
       ),
@@ -169,10 +214,7 @@ class ContactSection extends StatelessWidget {
         else
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            children: [
-              _footerText(),
-              _footerLinks(),
-            ],
+            children: [_footerText(), _footerLinks()],
           ),
         const SizedBox(height: 40),
       ],
@@ -185,7 +227,10 @@ class ContactSection extends StatelessWidget {
       children: [
         Text(
           'HUZAIFA EJAZ KAHLON',
-          style: GoogleFonts.outfit(fontWeight: FontWeight.bold, letterSpacing: 1),
+          style: GoogleFonts.outfit(
+            fontWeight: FontWeight.bold,
+            letterSpacing: 1,
+          ),
         ),
         const SizedBox(height: 4),
         const Text(
@@ -200,7 +245,10 @@ class ContactSection extends StatelessWidget {
     return Row(
       mainAxisSize: MainAxisSize.min,
       children: [
-        const Text('© 2026', style: TextStyle(fontSize: 12, color: Colors.white38)),
+        const Text(
+          '© 2026',
+          style: TextStyle(fontSize: 12, color: Colors.white38),
+        ),
         const SizedBox(width: 24),
         _link('Portfolio'),
         const SizedBox(width: 16),
